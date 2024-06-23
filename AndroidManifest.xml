@@ -23,6 +23,7 @@
     <application android:process="android.process.acore"
         android:label="@string/app_label"
         android:allowClearUserData="false"
+        android:restoreAnyVersion="true"
         android:backupAgent="DictionaryBackupAgent"
         android:killAfterRestore="false"
         android:usesCleartextTraffic="false"
