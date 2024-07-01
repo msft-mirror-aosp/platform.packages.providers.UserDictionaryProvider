@@ -10,7 +10,4 @@ android_app {
     platform_apis: true,
     certificate: "shared",
     privileged: true,
-    optimize: {
-        proguard_flags_files: ["proguard.flags"],
-    },
 }
